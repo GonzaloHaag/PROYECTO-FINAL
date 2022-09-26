@@ -1,9 +1,10 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Oswald:wght@500&display=swap");
 * {
   /*Hacemos reset*/
   padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
   /*Cambiamos la letra  a todo*/
   box-sizing: border-box; }
 
@@ -262,22 +263,24 @@ a {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px; }
-    .footer .grupo-1 .caja figure {
+    .footer .grupo-1 .caja-1 figure {
       width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center; }
-      .footer .grupo-1 .caja figure img {
+      .footer .grupo-1 .caja-1 figure img {
         width: 250px; }
-    .footer .grupo-1 .caja h2 {
+    .footer .grupo-1 .caja-2 h2 {
       color: black;
       margin-bottom: 25px;
       font-size: 20px; }
-    .footer .grupo-1 .caja p {
-      color: #efefef;
-      margin-bottom: 10px; }
-    .footer .grupo-1 .redes-sociales a {
+    .footer .grupo-1 .caja-3 h2 {
+      color: black;
+      margin-bottom: 25px;
+      font-size: 20px;
+      margin-left: 30px; }
+    .footer .grupo-1 .caja-3 .redes-sociales a {
       display: inline-block;
       text-decoration: none;
       width: 45px;
@@ -288,7 +291,7 @@ a {
       text-align: center;
       transition: all .3s ease;
       margin-left: 35px; }
-      .footer .grupo-1 .redes-sociales a:hover {
+      .footer .grupo-1 .caja-3 .redes-sociales a:hover {
         background-color: #c1c1da;
         font-size: 2em; }
 
@@ -304,29 +307,33 @@ a {
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 50px;
       padding: 45px 0px; }
-      .footer .grupo-1 .caja figure {
+      .footer .grupo-1 .caja-1 figure {
         width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center; }
-        .footer .grupo-1 .caja figure img {
+        .footer .grupo-1 .caja-1 figure img {
           width: 100px;
           height: 100px; }
-      .footer .grupo-1 .caja h2 {
+      .footer .grupo-1 .caja-1 .caja-2 h2 {
         color: black;
         margin-bottom: 25px;
         margin-left: 25px;
         font-size: 15px;
         transform: translateY(-50px);
         height: 30px; }
-      .footer .grupo-1 .caja i {
+      .footer .grupo-1 .caja-1 .caja-2 i {
         transform: translateY(-30px);
         margin-left: 20px; }
-      .footer .grupo-1 .caja p {
-        color: #efefef;
-        margin-bottom: 10px; }
-      .footer .grupo-1 .caja .redes-sociales a {
+      .footer .grupo-1 .caja-1 .caja-3 h2 {
+        color: black;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        font-size: 15px;
+        transform: translateY(-50px);
+        height: 30px; }
+      .footer .grupo-1 .caja-1 .caja-3 .redes-sociales a {
         display: inline-block;
         text-decoration: none;
         width: 45px;
@@ -648,4 +655,5 @@ a {
       padding-left: 10px;
       padding-right: 5px;
       justify-content: center;
-      font-size: 10px; } }
+      font-size: 10px;
+      margin-top: 5px; } }
