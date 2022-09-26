@@ -1,0 +1,156 @@
+.footer {
+    width: 100%;
+    background-image: linear-gradient(to left, #a6e4a6, #70ac70);
+
+    .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+
+        .caja {
+            figure {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+
+                    width: 250px;
+
+                }
+
+            }
+
+            h2 {
+                color:black;
+                margin-bottom: 25px;
+                font-size: 20px;
+
+            }
+
+            p {
+                color: #efefef;
+                margin-bottom: 10px;
+
+
+            }
+
+        }
+
+        .redes-sociales {
+            a {
+                display: inline-block;
+                text-decoration: none;
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                margin-right: 10px;
+                background-color: #0d2033;
+                text-align: center;
+                transition: all .3s ease;
+                margin-left: 35px;
+
+                &:hover {
+                    background-color: rgb(193, 193, 218);
+                    font-size: 2em;
+
+
+                }
+
+
+            }
+        }
+    }
+
+}
+
+
+@media(min-width:360px) and (max-width:990px) {
+    .footer {
+        width: 100%;
+        background-image: linear-gradient(to left, #bcd6bc, #70ac70);
+
+        .grupo-1 {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 50px;
+            padding: 45px 0px;
+
+            .caja {
+                figure {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 100px;
+                        height: 100px;
+
+
+                    }
+
+                }
+
+                h2 {
+                    color: black;
+                    margin-bottom: 25px;
+                    margin-left: 25px;
+                    font-size: 15px;
+                    transform: translateY(-50px);
+                    height: 30px;
+
+
+                }
+
+                i {
+                    transform: translateY(-30px);
+                    margin-left: 20px;
+
+                }
+
+                p {
+                    color: #efefef;
+                    margin-bottom: 10px;
+
+                }
+
+                .redes-sociales {
+                    a {
+                        display: inline-block;
+                        text-decoration: none;
+                        width: 45px;
+                        height: 45px;
+                        line-height: 45px;
+                        margin-right: 10px;
+                        background-color: #0d2033;
+                        text-align: center;
+                        transition: all .3s ease;
+                        margin-left: 35px;
+                        transform: translateY(-50px);
+
+                    }
+                }
+            }
+
+        }
+
+
+
+    }
+
+
+
+
+
+}

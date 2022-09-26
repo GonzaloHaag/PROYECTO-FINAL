@@ -1,0 +1,200 @@
+
+.cartas-imagenes-bolsos-uno {
+    
+    @extend %estiloCartas;
+
+    img {
+        width: 100%;
+        height: 100%;
+
+
+
+    }
+
+    .card-title {
+       @include TituloCartas;
+
+    }
+
+    .card-text {
+        @include textoCartas;
+    }
+
+    .card {
+        margin: 2px;
+        width: 350px;
+        align-items: center;
+        &:hover{
+            filter: grayscale(0.5);
+            cursor: pointer;
+            scale: 1.1;
+                }
+    }
+
+}
+
+.cartas-imagenes-bolsos-dos {
+    @extend %estiloCartas;
+
+    img {
+        width: 100%;
+        height: 100%;
+
+
+
+    }
+
+    .card-title {
+        @include TituloCartas;
+
+    }
+
+    .card-text {
+        @include textoCartas;
+    }
+
+    .card {
+        
+        margin: 2px;
+        width: 350px;
+        align-items: center;
+        &:hover{
+            filter: grayscale(0.5);
+            cursor: pointer;
+            scale: 1.1;
+        }
+    }
+}
+
+.btn-primary {
+    //justify-content: center;
+    width: 100%;
+
+
+
+
+}
+@media(min-width:537px) and (max-width:990px) {
+    .cartas-imagenes-uno {
+        
+        .card{
+            width: 100%;
+           
+        }
+        
+        .card-title {
+            font-size: 10px;
+            text-align: center;
+
+
+        }
+
+        .card-text {
+            text-align: center;
+            font-size: 10px;
+            font-weight: 900;
+        }
+
+        .btn-primary {
+            font-size: 10px;
+        }
+
+    }
+
+    .cartas-imagenes-dos {
+        .card-title {
+            font-size: 10px;
+            text-align: center;
+
+
+        }
+
+        .card-text {
+            text-align: center;
+            font-size: 10px;
+            font-weight: 900;
+        }
+
+        .btn-primary {
+            font-size: 10px;
+        }
+
+
+
+
+
+    }
+}
+
+
+@media(min-width:360px) and (max-width:537px) {
+    .cartas-imagenes-bolsos-uno {
+        
+        flex-wrap: wrap;
+        .card{
+            width: 100%;
+            &:hover{
+                scale: 1;
+            }
+        }
+       
+        
+    
+        .card-title {
+            font-size: 15px;
+            text-align: center;
+            font-weight: 900;
+
+
+        }
+
+        .card-text {
+            text-align: center;
+            font-size: 15px;
+            height: 50px;
+        }
+
+        .btn-primary {
+            height: 30px;
+            width: 100%;
+            margin: 0;
+            font-size: 10px;
+        }
+
+    }
+
+    .cartas-imagenes-bolsos-dos {
+        flex-wrap: wrap;
+        .card{
+            width: 100%;
+            &:hover{
+                scale: 1;
+            }
+        }
+        .card-title {
+            font-size: 15px;
+            text-align: center;
+            font-weight: 900;
+
+
+        }
+
+        .card-text {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .btn-primary {
+            height: 30px;
+            width: 100%;
+            margin: 0;
+            font-size: 10px;
+        }
+
+    }
+
+
+
+
+
+}

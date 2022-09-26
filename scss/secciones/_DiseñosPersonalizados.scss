@@ -1,0 +1,60 @@
+.h1-diseños {
+    text-align: center;
+    margin-top:15px;
+
+}
+
+.diseño {
+    display: flex;
+    padding-left: 20px;
+    box-shadow: $box-shadow;
+    padding-top: 15px;
+
+    .i-diseño {
+        padding-top: 10px;
+        padding-left: 15px;
+        justify-content: center;
+    }
+
+}
+.CARROUSEL-PADRE{
+    width: 40%;
+}
+.ancho-carousel{
+    width: 100%;
+}
+.carousel-control-prev-icon{
+    background-color: blue;
+
+}
+.carousel-control-next-icon{
+    //background-color: blue;
+    background-color: blue;
+}
+
+@media(min-width:360px) and (max-width:990px) {
+
+
+    .h1-diseños {
+        text-align: center;
+
+    }
+
+    .diseño {
+        display: flex;
+        padding-left: 20px;
+        box-shadow: $box-shadow;
+        padding-top: 15px;
+
+        .i-diseño {
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 5px;
+            justify-content: center;
+            font-size: 10px;
+
+        }
+    }
+
+
+}

@@ -1,0 +1,69 @@
+EXTEND:
+Implemente un extend y lo agregue al h2 de la pagina nosotros.
+MIXIN:
+Implemente un mixin y se lo aplique a los parrafos de la pagina nosotros.
+
+CON RESPECTO AL SEO:
+KEYWORDS:
+Agregue la siguiente keywords al index:
+ <meta name="keywords" content="Mates,mate,compartir,amigos,"/>
+ Contacto:
+<meta name="keywords" content="contacto,formulario,datos,cliente,mates">
+Nosotros:
+ <meta name="keywords" content="Nosotros,informacion,conocenos,confianza">
+ MatesPampa:
+  <meta name="keywords" content="mates,pampa,ecologico,naturaleza" />
+  BolsosMateros:
+   <meta name="keywords" content="Bolsos,mate,comodidad,viaje">
+  DiseñosPersonalizados:
+   <meta name="keywords" content="Diseños,personalizados,eleccion,personal">
+
+
+
+
+ DESCRIPTION:
+Index:
+ <meta name="description" content="El pocho mates es una pagina dedicada a la venta de mates a nivel nacional."/>
+ Contacto:
+<meta name="description" content="Completar formulario para estar al dia con nuestras noticias y ofertas">
+Nosotros:
+ <meta name="description" content="Conoce mas sobre nosotros, para generarte la mejor confianza al realizar una compra">
+ MatesPampa:
+  <meta
+      name="description"
+      content="El pampa es un mate ecológico porque no tiene derivados animales y está hecho 100% a partir de materiales reciclables. En su interior presenta un plástico aséptico, por lo que no genera hongos y es súper fácil de lavar . En su exterior éste material flexible logra imitar al típico mate de cuero, además de que lo hace más térmico y resistente que cualquier otro mate>
+      BolsosMateros:
+       <meta name="description"
+    content="Te mostramos nuestros bolsos materos, que te pueden brindar una comodidad increible a la hora de llevar tu set de mate">
+
+  DiseñosPersonalizados:
+  <meta name="description" content="Si alguno de nuestros mates no te convence, pedinos el tuyo a tu gusto,sin compromiso">
+  
+
+
+
+
+
+ TITLE:
+Index:
+<title> INICIO </title>
+Contacto:
+ <title> CONTACTO </title>
+ Nosotros:
+  <title> NOSOTROS 
+    </title>
+MatesPampa:
+<title>MatesPampa</title>
+BolsosMateros:
+ <title>Bolsos Materos
+  </title>
+
+DiseñosPersonalizados:
+<title>diseñosPersonalizados</title>
+  
+
+
+
+
+
+

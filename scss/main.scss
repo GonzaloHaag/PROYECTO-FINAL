@@ -1,0 +1,32 @@
+* {
+    /*Hacemos reset*/
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Cambiamos la letra  a todo*/
+    box-sizing: border-box;
+
+
+
+
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+
+@import './variables/variables'; //Las variables se importan arriba de todo
+@import './variables/mixin';
+@import './variables/extend';
+@import './secciones/header';
+@import './secciones/main-index';
+@import './secciones/contacto';
+@import './secciones/footer';
+@import './secciones/matesPampa';
+@import './secciones/nosotros';
+@import './secciones/BolsosMateros';
+@import './secciones/DiseñosPersonalizados';

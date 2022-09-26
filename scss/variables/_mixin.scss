@@ -1,0 +1,19 @@
+//MIXIN
+@mixin estiloTexto ($size, $color) {
+    font-weight: 900;
+    font-style: italic;
+    font-size: $size;
+    color: $color;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+@mixin TituloCartas{
+    font-size: 20px;
+    text-align: center;
+}
+@mixin textoCartas{
+    text-align: center;
+    font-size: 25px;
+}

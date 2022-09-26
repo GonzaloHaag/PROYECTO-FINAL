@@ -1,0 +1,32 @@
+.color-nav-boostrap {
+    background-image: linear-gradient(to left, #a6e4a6, #70ac70);
+
+    .navbar-brand {
+        img {
+            width: 150px;
+            height: 150px;
+        }
+
+    }
+
+    .dropdown-menu {
+        .dropdown-item:hover {
+
+            color: blue;
+
+        }
+    }
+
+    .navbar-nav {
+        display: flex;
+        margin: 15px auto;
+        font-size: 20px;
+
+        li:hover {
+            font-weight: 900;
+            /*Al pasarle el click arriba se agrandara el item*/
+
+        }
+
+    }
+}
