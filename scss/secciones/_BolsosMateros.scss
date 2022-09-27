@@ -1,6 +1,5 @@
-
 .cartas-imagenes-bolsos-uno {
-    
+
     @extend %estiloCartas;
 
     img {
@@ -12,7 +11,7 @@
     }
 
     .card-title {
-       @include TituloCartas;
+        @include TituloCartas;
 
     }
 
@@ -24,11 +23,12 @@
         margin: 2px;
         width: 350px;
         align-items: center;
-        &:hover{
+
+        &:hover {
             filter: grayscale(0.5);
             cursor: pointer;
             scale: 1.1;
-                }
+        }
     }
 
 }
@@ -54,11 +54,12 @@
     }
 
     .card {
-        
+
         margin: 2px;
         width: 350px;
         align-items: center;
-        &:hover{
+
+        &:hover {
             filter: grayscale(0.5);
             cursor: pointer;
             scale: 1.1;
@@ -74,14 +75,15 @@
 
 
 }
+
 @media(min-width:537px) and (max-width:990px) {
     .cartas-imagenes-uno {
-        
-        .card{
+
+        .card {
             width: 100%;
-           
+
         }
-        
+
         .card-title {
             font-size: 10px;
             text-align: center;
@@ -129,17 +131,19 @@
 
 @media(min-width:360px) and (max-width:537px) {
     .cartas-imagenes-bolsos-uno {
-        
+
         flex-wrap: wrap;
-        .card{
+
+        .card {
             width: 100%;
-            &:hover{
+
+            &:hover {
                 scale: 1;
             }
         }
-       
-        
-    
+
+
+
         .card-title {
             font-size: 15px;
             text-align: center;
@@ -165,12 +169,15 @@
 
     .cartas-imagenes-bolsos-dos {
         flex-wrap: wrap;
-        .card{
+
+        .card {
             width: 100%;
-            &:hover{
+
+            &:hover {
                 scale: 1;
             }
         }
+
         .card-title {
             font-size: 15px;
             text-align: center;
