@@ -39,8 +39,7 @@ a {
     margin: 15px auto;
     font-size: 20px; }
     .color-nav-boostrap .navbar-nav li:hover {
-      font-weight: 900;
-      /*Al pasarle el click arriba se agrandara el item*/ }
+      font-weight: 900; }
 
 .body {
   display: flex;
@@ -115,7 +114,6 @@ a {
     margin-top: 5px; }
 
 .css-selector-degradee {
-  /*Que esta dentro de un figure*/
   background: linear-gradient(270deg, red, blue, orange, #101110);
   background-size: 800% 800%;
   height: 4px;
